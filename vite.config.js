@@ -4,7 +4,7 @@ export default defineConfig({
   base: process.env.BASE_PATH || (process.env.VERCEL ? "/" : "/GfBirthday/"),
   build: {
     rollupOptions: {
-      input: "Happy Birthday Website.html",
+      input: "index.html",
     },
   },
 });
